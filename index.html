@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GameBoy</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Cliquez sur le bouton START, une surprise vous attend...</h1>
+
+  <div class="container">
+    <div class="gameboy">
+      <div class="face front">
+        <div class="screen">
+          <div class="underScreen">
+              <p><img src="images/logo.png" width="180px" style="margin:10px"></p>
+          </div>
+        </div>
+        <div class="mainPad">
+          <div class="pad"></div>
+        </div>
+        <div class="mainBtns">
+          <div class="btn1"></div>
+          <div class="btn2"></div>
+        </div>
+        <div class="start" onclick="toggleMusic($audio)">
+          <p>start</p>
+        </div>
+        <div class="select" onclick="visibilite($audio)">
+          <p>select</p>
+        </div>
+      </div>
+
+      <div class="face back"></div>
+      <div class="face left"></div>
+      <div class="face right"></div>
+      <div class="face top"></div>
+      <div class="face bottom"></div>
+  </div>
+
+  
+    
+
+  <audio class="audio" src="nintendo.mp3"></audio>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
