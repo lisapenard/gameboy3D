@@ -8,6 +8,7 @@
   <title>GameBoy</title>
   <link rel="stylesheet" href="styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  <link rel="icon" href="images/favicon.jpg">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
   <h1>Cliquez sur le bouton START, une surprise vous attend...</h1>
 
   <div class="container">
-    <div class="gameboy">
+    <div class="gameboy" data-amplitude="0.6">
       <div class="face front">
         <div class="screen">
           <div class="underScreen">
@@ -48,6 +49,7 @@
     
 
   <audio class="audio" src="nintendo.mp3"></audio>
+  <script src="scripts/CursorParallax.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 

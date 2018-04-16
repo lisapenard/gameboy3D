@@ -14,3 +14,4 @@ function toggleMusic() {
     }
 }
 
+const cursorParallax = new CursorParallax()
